@@ -6,7 +6,8 @@ module.exports = function(shariff) {
   var title = shariff.getTitle()
 
   return {
-    popup: true,
+    blank: true,
+    popup: false,
     shareText: {
       'bg': 'cподеляне',
       'cs': 'sdílet',

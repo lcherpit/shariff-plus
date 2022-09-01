@@ -36,7 +36,8 @@ module.exports = function(shariff) {
   delete shareUrl.search
 
   return {
-    popup: true,
+    blank: true,
+    popup: false,
     shareText: {
       'en': 'tweet',
       'ja': 'のつぶやき',
